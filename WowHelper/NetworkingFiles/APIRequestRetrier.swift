@@ -11,7 +11,6 @@ import Alamofire
 
 class APIRequestRetrier: RequestRetrier {
     
-    // [Request url: Number of times retried]
     private var retriedRequests: [String: Int] = [:]
     
     internal func should(_ manager: SessionManager,
