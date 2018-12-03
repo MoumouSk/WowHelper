@@ -7,23 +7,80 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D5BBB0B921AC2D8800C3184C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BBB0B821AC2D8800C3184C /* AppDelegate.swift */; };
-		D5BBB0BB21AC2D8800C3184C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BBB0BA21AC2D8800C3184C /* ViewController.swift */; };
-		D5BBB0BE21AC2D8800C3184C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5BBB0BC21AC2D8800C3184C /* Main.storyboard */; };
+		A4D11748B4F16875ABAAA1C4 /* Pods_WowHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA248351BB13DFCF8C27B61 /* Pods_WowHelper.framework */; };
+		D5AFDF4321AC30310019B481 /* Current_keystone_affixes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AFDF4121AC30300019B481 /* Current_keystone_affixes.swift */; };
+		D5AFDF4421AC30310019B481 /* CurrentKeystoneGeneralInfosBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AFDF4221AC30300019B481 /* CurrentKeystoneGeneralInfosBase.swift */; };
+		D5AFE2CC21AC31260019B481 /* APIRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AFE2CA21AC31250019B481 /* APIRequester.swift */; };
+		D5AFE2CD21AC31260019B481 /* APIRequestRetrier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AFE2CB21AC31260019B481 /* APIRequestRetrier.swift */; };
+		D5AFE2CF21AC33130019B481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5AFE2CE21AC33130019B481 /* Assets.xcassets */; };
+		D5AFE2D221AC39360019B481 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5AFE2D421AC39360019B481 /* Info.plist */; };
+		D5AFE2D821AC3A210019B481 /* RealmIndexBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AFE2D621AC3A200019B481 /* RealmIndexBase.swift */; };
+		D5AFE2D921AC3A210019B481 /* RealmsInfos.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AFE2D721AC3A210019B481 /* RealmsInfos.swift */; };
 		D5BBB0C121AC2D8800C3184C /* WowHelper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D5BBB0BF21AC2D8800C3184C /* WowHelper.xcdatamodeld */; };
-		D5BBB0C321AC2D8A00C3184C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5BBB0C221AC2D8A00C3184C /* Assets.xcassets */; };
 		D5BBB0C621AC2D8A00C3184C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5BBB0C421AC2D8A00C3184C /* LaunchScreen.storyboard */; };
+		D5BBB0CF21AC2E0300C3184C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BBB0CE21AC2E0300C3184C /* AppDelegate.swift */; };
+		D5BBB0D121AC2E1D00C3184C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5BBB0D021AC2E1D00C3184C /* Main.storyboard */; };
+		D5BBB0D421AC2E2C00C3184C /* UtilityFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BBB0D321AC2E2C00C3184C /* UtilityFunctions.swift */; };
+		D5BBB0D721AC2E3200C3184C /* LoadingResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BBB0D621AC2E3200C3184C /* LoadingResourcesViewController.swift */; };
+		D5BBB0DB21AC2E4600C3184C /* DungeonInfos.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BBB0D921AC2E4600C3184C /* DungeonInfos.swift */; };
+		D5BBB0DC21AC2E4600C3184C /* DungeonInfosBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BBB0DA21AC2E4600C3184C /* DungeonInfosBase.swift */; };
+		D5BBB0E321AC2E5F00C3184C /* KeystoneLeaderboardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BBB0DF21AC2E5F00C3184C /* KeystoneLeaderboardTableViewCell.swift */; };
+		D5BBB0E421AC2E5F00C3184C /* KeystoneLeaderboardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BBB0E021AC2E5F00C3184C /* KeystoneLeaderboardTableViewController.swift */; };
+		D5BBB0E521AC2E5F00C3184C /* KeystoneLeaderboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BBB0E121AC2E5F00C3184C /* KeystoneLeaderboardViewController.swift */; };
+		D5BBB10F21AC2E9600C3184C /* Connected_realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BBB10421AC2E9600C3184C /* Connected_realm.swift */; };
+		D5BBB11021AC2E9600C3184C /* Faction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BBB10521AC2E9600C3184C /* Faction.swift */; };
+		D5BBB11121AC2E9600C3184C /* Keystone_affix.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BBB10621AC2E9600C3184C /* Keystone_affix.swift */; };
+		D5BBB11221AC2E9600C3184C /* Keystone_affixes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BBB10721AC2E9600C3184C /* Keystone_affixes.swift */; };
+		D5BBB11321AC2E9600C3184C /* Leading_groups.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BBB10821AC2E9600C3184C /* Leading_groups.swift */; };
+		D5BBB11421AC2E9600C3184C /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BBB10921AC2E9600C3184C /* Map.swift */; };
+		D5BBB11521AC2E9600C3184C /* Members.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BBB10A21AC2E9600C3184C /* Members.swift */; };
+		D5BBB11621AC2E9600C3184C /* KeystoneLeaderboardBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BBB10B21AC2E9600C3184C /* KeystoneLeaderboardBase.swift */; };
+		D5BBB11721AC2E9600C3184C /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BBB10C21AC2E9600C3184C /* Profile.swift */; };
+		D5BBB11821AC2E9600C3184C /* Realm.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BBB10D21AC2E9600C3184C /* Realm.swift */; };
+		D5BBB11921AC2E9600C3184C /* Specialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BBB10E21AC2E9600C3184C /* Specialization.swift */; };
+		D5BBB11E21AC2EAC00C3184C /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BBB11B21AC2EAC00C3184C /* AuthViewController.swift */; };
+		D5BBB11F21AC2EAC00C3184C /* OAuth2Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BBB11C21AC2EAC00C3184C /* OAuth2Object.swift */; };
+		D5BBB12021AC2EAC00C3184C /* OAuth2RetryHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5BBB11D21AC2EAC00C3184C /* OAuth2RetryHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2BA248351BB13DFCF8C27B61 /* Pods_WowHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WowHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		541FF0B96CA4A279A28A97AB /* Pods-WowHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WowHelper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WowHelper/Pods-WowHelper.debug.xcconfig"; sourceTree = "<group>"; };
+		8CFAAE9AFB63CA28D1E6AEF2 /* Pods-WowHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WowHelper.release.xcconfig"; path = "Pods/Target Support Files/Pods-WowHelper/Pods-WowHelper.release.xcconfig"; sourceTree = "<group>"; };
+		D5AFDF4121AC30300019B481 /* Current_keystone_affixes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Current_keystone_affixes.swift; sourceTree = "<group>"; };
+		D5AFDF4221AC30300019B481 /* CurrentKeystoneGeneralInfosBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentKeystoneGeneralInfosBase.swift; sourceTree = "<group>"; };
+		D5AFE2CA21AC31250019B481 /* APIRequester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequester.swift; sourceTree = "<group>"; };
+		D5AFE2CB21AC31260019B481 /* APIRequestRetrier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequestRetrier.swift; sourceTree = "<group>"; };
+		D5AFE2CE21AC33130019B481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../WowTest/WowTest/Supporting Files/Assets.xcassets"; sourceTree = "<group>"; };
+		D5AFE2D321AC39360019B481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		D5AFE2D621AC3A200019B481 /* RealmIndexBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmIndexBase.swift; sourceTree = "<group>"; };
+		D5AFE2D721AC3A210019B481 /* RealmsInfos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmsInfos.swift; sourceTree = "<group>"; };
 		D5BBB0B521AC2D8800C3184C /* WowHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WowHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5BBB0B821AC2D8800C3184C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D5BBB0BA21AC2D8800C3184C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D5BBB0BD21AC2D8800C3184C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D5BBB0C021AC2D8800C3184C /* WowHelper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WowHelper.xcdatamodel; sourceTree = "<group>"; };
-		D5BBB0C221AC2D8A00C3184C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5BBB0C521AC2D8A00C3184C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D5BBB0C721AC2D8A00C3184C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5BBB0CE21AC2E0300C3184C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../../WowTest/WowTest/AppDelegate.swift; sourceTree = "<group>"; };
+		D5BBB0D021AC2E1D00C3184C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D5BBB0D321AC2E2C00C3184C /* UtilityFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilityFunctions.swift; sourceTree = "<group>"; };
+		D5BBB0D621AC2E3200C3184C /* LoadingResourcesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingResourcesViewController.swift; sourceTree = "<group>"; };
+		D5BBB0D921AC2E4600C3184C /* DungeonInfos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DungeonInfos.swift; sourceTree = "<group>"; };
+		D5BBB0DA21AC2E4600C3184C /* DungeonInfosBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DungeonInfosBase.swift; sourceTree = "<group>"; };
+		D5BBB0DF21AC2E5F00C3184C /* KeystoneLeaderboardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeystoneLeaderboardTableViewCell.swift; sourceTree = "<group>"; };
+		D5BBB0E021AC2E5F00C3184C /* KeystoneLeaderboardTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeystoneLeaderboardTableViewController.swift; sourceTree = "<group>"; };
+		D5BBB0E121AC2E5F00C3184C /* KeystoneLeaderboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeystoneLeaderboardViewController.swift; sourceTree = "<group>"; };
+		D5BBB10421AC2E9600C3184C /* Connected_realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connected_realm.swift; sourceTree = "<group>"; };
+		D5BBB10521AC2E9600C3184C /* Faction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Faction.swift; sourceTree = "<group>"; };
+		D5BBB10621AC2E9600C3184C /* Keystone_affix.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keystone_affix.swift; sourceTree = "<group>"; };
+		D5BBB10721AC2E9600C3184C /* Keystone_affixes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keystone_affixes.swift; sourceTree = "<group>"; };
+		D5BBB10821AC2E9600C3184C /* Leading_groups.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Leading_groups.swift; sourceTree = "<group>"; };
+		D5BBB10921AC2E9600C3184C /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		D5BBB10A21AC2E9600C3184C /* Members.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Members.swift; sourceTree = "<group>"; };
+		D5BBB10B21AC2E9600C3184C /* KeystoneLeaderboardBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeystoneLeaderboardBase.swift; sourceTree = "<group>"; };
+		D5BBB10C21AC2E9600C3184C /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		D5BBB10D21AC2E9600C3184C /* Realm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Realm.swift; sourceTree = "<group>"; };
+		D5BBB10E21AC2E9600C3184C /* Specialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Specialization.swift; sourceTree = "<group>"; };
+		D5BBB11B21AC2EAC00C3184C /* AuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		D5BBB11C21AC2EAC00C3184C /* OAuth2Object.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuth2Object.swift; sourceTree = "<group>"; };
+		D5BBB11D21AC2EAC00C3184C /* OAuth2RetryHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuth2RetryHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +88,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4D11748B4F16875ABAAA1C4 /* Pods_WowHelper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11187BAB2DC6E327F017D5A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				541FF0B96CA4A279A28A97AB /* Pods-WowHelper.debug.xcconfig */,
+				8CFAAE9AFB63CA28D1E6AEF2 /* Pods-WowHelper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D5AFDF4021AC30300019B481 /* CurrentKeystoneGeneralInfos */ = {
+			isa = PBXGroup;
+			children = (
+				D5AFDF4121AC30300019B481 /* Current_keystone_affixes.swift */,
+				D5AFDF4221AC30300019B481 /* CurrentKeystoneGeneralInfosBase.swift */,
+			);
+			path = CurrentKeystoneGeneralInfos;
+			sourceTree = "<group>";
+		};
+		D5AFE2C921AC31100019B481 /* NetworkingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D5AFE2CA21AC31250019B481 /* APIRequester.swift */,
+				D5AFE2CB21AC31260019B481 /* APIRequestRetrier.swift */,
+			);
+			path = NetworkingFiles;
+			sourceTree = "<group>";
+		};
+		D5AFE2D521AC3A010019B481 /* RealmInfosModels */ = {
+			isa = PBXGroup;
+			children = (
+				D5AFE2D621AC3A200019B481 /* RealmIndexBase.swift */,
+				D5AFE2D721AC3A210019B481 /* RealmsInfos.swift */,
+			);
+			path = RealmInfosModels;
+			sourceTree = "<group>";
+		};
 		D5BBB0AC21AC2D8800C3184C = {
 			isa = PBXGroup;
 			children = (
 				D5BBB0B721AC2D8800C3184C /* WowHelper */,
 				D5BBB0B621AC2D8800C3184C /* Products */,
+				11187BAB2DC6E327F017D5A9 /* Pods */,
+				FA06A924E1FAFE7167F52583 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +152,102 @@
 		D5BBB0B721AC2D8800C3184C /* WowHelper */ = {
 			isa = PBXGroup;
 			children = (
-				D5BBB0B821AC2D8800C3184C /* AppDelegate.swift */,
-				D5BBB0BA21AC2D8800C3184C /* ViewController.swift */,
-				D5BBB0BC21AC2D8800C3184C /* Main.storyboard */,
-				D5BBB0C221AC2D8A00C3184C /* Assets.xcassets */,
-				D5BBB0C421AC2D8A00C3184C /* LaunchScreen.storyboard */,
-				D5BBB0C721AC2D8A00C3184C /* Info.plist */,
-				D5BBB0BF21AC2D8800C3184C /* WowHelper.xcdatamodeld */,
+				D5AFE2D421AC39360019B481 /* Info.plist */,
+				D5BBB0D221AC2E2C00C3184C /* Common */,
+				D5BBB0D521AC2E3200C3184C /* LoadingResourcesController */,
+				D5BBB0D821AC2E4600C3184C /* DungeonInfosModels */,
+				D5AFDF4021AC30300019B481 /* CurrentKeystoneGeneralInfos */,
+				D5BBB0DD21AC2E5F00C3184C /* KeystoneLeaderboardControllers */,
+				D5BBB10321AC2E9600C3184C /* KeystoneLearderboardModels */,
+				D5AFE2C921AC31100019B481 /* NetworkingFiles */,
+				D5AFE2D521AC3A010019B481 /* RealmInfosModels */,
+				D5BBB11A21AC2EAC00C3184C /* OAuth2 Files */,
+				D5BBB0CD21AC2DA500C3184C /* SupportingFiles */,
 			);
 			path = WowHelper;
+			sourceTree = "<group>";
+		};
+		D5BBB0CD21AC2DA500C3184C /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D5BBB0CE21AC2E0300C3184C /* AppDelegate.swift */,
+				D5AFE2CE21AC33130019B481 /* Assets.xcassets */,
+				D5BBB0C421AC2D8A00C3184C /* LaunchScreen.storyboard */,
+				D5BBB0D021AC2E1D00C3184C /* Main.storyboard */,
+				D5BBB0BF21AC2D8800C3184C /* WowHelper.xcdatamodeld */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		D5BBB0D221AC2E2C00C3184C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D5BBB0D321AC2E2C00C3184C /* UtilityFunctions.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D5BBB0D521AC2E3200C3184C /* LoadingResourcesController */ = {
+			isa = PBXGroup;
+			children = (
+				D5BBB0D621AC2E3200C3184C /* LoadingResourcesViewController.swift */,
+			);
+			path = LoadingResourcesController;
+			sourceTree = "<group>";
+		};
+		D5BBB0D821AC2E4600C3184C /* DungeonInfosModels */ = {
+			isa = PBXGroup;
+			children = (
+				D5BBB0D921AC2E4600C3184C /* DungeonInfos.swift */,
+				D5BBB0DA21AC2E4600C3184C /* DungeonInfosBase.swift */,
+			);
+			path = DungeonInfosModels;
+			sourceTree = "<group>";
+		};
+		D5BBB0DD21AC2E5F00C3184C /* KeystoneLeaderboardControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D5BBB0DF21AC2E5F00C3184C /* KeystoneLeaderboardTableViewCell.swift */,
+				D5BBB0E021AC2E5F00C3184C /* KeystoneLeaderboardTableViewController.swift */,
+				D5BBB0E121AC2E5F00C3184C /* KeystoneLeaderboardViewController.swift */,
+			);
+			path = KeystoneLeaderboardControllers;
+			sourceTree = "<group>";
+		};
+		D5BBB10321AC2E9600C3184C /* KeystoneLearderboardModels */ = {
+			isa = PBXGroup;
+			children = (
+				D5BBB10421AC2E9600C3184C /* Connected_realm.swift */,
+				D5BBB10521AC2E9600C3184C /* Faction.swift */,
+				D5BBB10621AC2E9600C3184C /* Keystone_affix.swift */,
+				D5BBB10721AC2E9600C3184C /* Keystone_affixes.swift */,
+				D5BBB10821AC2E9600C3184C /* Leading_groups.swift */,
+				D5BBB10921AC2E9600C3184C /* Map.swift */,
+				D5BBB10A21AC2E9600C3184C /* Members.swift */,
+				D5BBB10B21AC2E9600C3184C /* KeystoneLeaderboardBase.swift */,
+				D5BBB10C21AC2E9600C3184C /* Profile.swift */,
+				D5BBB10D21AC2E9600C3184C /* Realm.swift */,
+				D5BBB10E21AC2E9600C3184C /* Specialization.swift */,
+			);
+			path = KeystoneLearderboardModels;
+			sourceTree = "<group>";
+		};
+		D5BBB11A21AC2EAC00C3184C /* OAuth2 Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5BBB11B21AC2EAC00C3184C /* AuthViewController.swift */,
+				D5BBB11C21AC2EAC00C3184C /* OAuth2Object.swift */,
+				D5BBB11D21AC2EAC00C3184C /* OAuth2RetryHandler.swift */,
+			);
+			path = "OAuth2 Files";
+			sourceTree = "<group>";
+		};
+		FA06A924E1FAFE7167F52583 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BA248351BB13DFCF8C27B61 /* Pods_WowHelper.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +257,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D5BBB0CA21AC2D8A00C3184C /* Build configuration list for PBXNativeTarget "WowHelper" */;
 			buildPhases = (
+				286A67893CE6B1AD13E4D7CF /* [CP] Check Pods Manifest.lock */,
 				D5BBB0B121AC2D8800C3184C /* Sources */,
 				D5BBB0B221AC2D8800C3184C /* Frameworks */,
 				D5BBB0B321AC2D8800C3184C /* Resources */,
+				4554073FB5CD01C5C9A641AE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -99,6 +284,7 @@
 				TargetAttributes = {
 					D5BBB0B421AC2D8800C3184C = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -125,34 +311,111 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5AFE2D221AC39360019B481 /* Info.plist in Resources */,
+				D5BBB0D121AC2E1D00C3184C /* Main.storyboard in Resources */,
 				D5BBB0C621AC2D8A00C3184C /* LaunchScreen.storyboard in Resources */,
-				D5BBB0C321AC2D8A00C3184C /* Assets.xcassets in Resources */,
-				D5BBB0BE21AC2D8800C3184C /* Main.storyboard in Resources */,
+				D5AFE2CF21AC33130019B481 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		286A67893CE6B1AD13E4D7CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WowHelper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4554073FB5CD01C5C9A641AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WowHelper/Pods-WowHelper-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/p2.OAuth2/p2_OAuth2.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/p2_OAuth2.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WowHelper/Pods-WowHelper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D5BBB0B121AC2D8800C3184C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5BBB11E21AC2EAC00C3184C /* AuthViewController.swift in Sources */,
+				D5BBB11221AC2E9600C3184C /* Keystone_affixes.swift in Sources */,
+				D5AFE2D821AC3A210019B481 /* RealmIndexBase.swift in Sources */,
+				D5BBB0E521AC2E5F00C3184C /* KeystoneLeaderboardViewController.swift in Sources */,
+				D5BBB11421AC2E9600C3184C /* Map.swift in Sources */,
+				D5BBB0E321AC2E5F00C3184C /* KeystoneLeaderboardTableViewCell.swift in Sources */,
+				D5BBB11521AC2E9600C3184C /* Members.swift in Sources */,
+				D5AFE2CD21AC31260019B481 /* APIRequestRetrier.swift in Sources */,
+				D5BBB11321AC2E9600C3184C /* Leading_groups.swift in Sources */,
+				D5BBB0DC21AC2E4600C3184C /* DungeonInfosBase.swift in Sources */,
+				D5BBB0DB21AC2E4600C3184C /* DungeonInfos.swift in Sources */,
+				D5BBB12021AC2EAC00C3184C /* OAuth2RetryHandler.swift in Sources */,
+				D5BBB0D421AC2E2C00C3184C /* UtilityFunctions.swift in Sources */,
+				D5BBB0E421AC2E5F00C3184C /* KeystoneLeaderboardTableViewController.swift in Sources */,
+				D5BBB10F21AC2E9600C3184C /* Connected_realm.swift in Sources */,
+				D5BBB11021AC2E9600C3184C /* Faction.swift in Sources */,
+				D5BBB11621AC2E9600C3184C /* KeystoneLeaderboardBase.swift in Sources */,
+				D5BBB0CF21AC2E0300C3184C /* AppDelegate.swift in Sources */,
+				D5BBB11821AC2E9600C3184C /* Realm.swift in Sources */,
+				D5BBB11F21AC2EAC00C3184C /* OAuth2Object.swift in Sources */,
+				D5AFDF4321AC30310019B481 /* Current_keystone_affixes.swift in Sources */,
+				D5AFDF4421AC30310019B481 /* CurrentKeystoneGeneralInfosBase.swift in Sources */,
 				D5BBB0C121AC2D8800C3184C /* WowHelper.xcdatamodeld in Sources */,
-				D5BBB0BB21AC2D8800C3184C /* ViewController.swift in Sources */,
-				D5BBB0B921AC2D8800C3184C /* AppDelegate.swift in Sources */,
+				D5AFE2CC21AC31260019B481 /* APIRequester.swift in Sources */,
+				D5BBB11721AC2E9600C3184C /* Profile.swift in Sources */,
+				D5BBB0D721AC2E3200C3184C /* LoadingResourcesViewController.swift in Sources */,
+				D5BBB11121AC2E9600C3184C /* Keystone_affix.swift in Sources */,
+				D5AFE2D921AC3A210019B481 /* RealmsInfos.swift in Sources */,
+				D5BBB11921AC2E9600C3184C /* Specialization.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D5BBB0BC21AC2D8800C3184C /* Main.storyboard */ = {
+		D5AFE2D421AC39360019B481 /* Info.plist */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D5BBB0BD21AC2D8800C3184C /* Base */,
+				D5AFE2D321AC39360019B481 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Info.plist;
+			path = ../../WowTest/WowTest;
 			sourceTree = "<group>";
 		};
 		D5BBB0C421AC2D8A00C3184C /* LaunchScreen.storyboard */ = {
@@ -217,7 +480,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +535,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -284,17 +547,21 @@
 		};
 		D5BBB0CB21AC2D8A00C3184C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 541FF0B96CA4A279A28A97AB /* Pods-WowHelper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = URBR7TWTTB;
 				INFOPLIST_FILE = WowHelper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.msk.WowHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -302,11 +569,14 @@
 		};
 		D5BBB0CC21AC2D8A00C3184C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CFAAE9AFB63CA28D1E6AEF2 /* Pods-WowHelper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = URBR7TWTTB;
 				INFOPLIST_FILE = WowHelper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
