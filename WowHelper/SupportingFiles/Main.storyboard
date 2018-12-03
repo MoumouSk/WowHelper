@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cNh-IM-08d">
     <device id="retina6_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -13,7 +12,7 @@
         <!--Mythic Leaderboard-->
         <scene sceneID="vVt-ix-J5e">
             <objects>
-                <viewController id="XJz-TS-tMq" customClass="KeystoneLeaderboardViewController" customModule="WowHelper" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="XJz-TS-tMq" customClass="MythicKeyLeaderboardViewController" customModule="WowTest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="D66-bo-c0M">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -51,7 +50,6 @@
                             </imageView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MGt-ZU-meT">
                                 <rect key="frame" x="0.0" y="150" width="414" height="619"/>
-                                <color key="backgroundColor" red="0.57874745130000005" green="0.32151988149999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <segue destination="fxm-OK-VSe" kind="embed" identifier="mythicKeyParentToEmbedList" id="3AP-p6-2Ct"/>
                                 </connections>
@@ -99,18 +97,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o0l-Jk-XnE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-10832" y="-3135"/>
+            <point key="canvasLocation" x="-9294" y="-3093"/>
         </scene>
-        <!--Keystone Leaderboard Table View Controller-->
+        <!--Mythic Key Leaderboard Table View Controller-->
         <scene sceneID="ewt-l1-ySs">
             <objects>
-                <tableViewController id="fxm-OK-VSe" customClass="KeystoneLeaderboardTableViewController" customModule="WowHelper" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="fxm-OK-VSe" customClass="MythicKeyLeaderboardTableViewController" customModule="WowTest" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="z8M-bl-w6k">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="619"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.2538269353" green="0.2538269353" blue="0.2538269353" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="mythicCellIdentifier" rowHeight="100" id="rwP-ax-d14" customClass="KeystoneLeaderboardTableViewCell" customModule="WowHelper" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="mythicCellIdentifier" rowHeight="100" id="rwP-ax-d14" customClass="MythicKeyLeaderboardTableViewCell" customModule="WowTest" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="rwP-ax-d14" id="nTV-az-OrT">
@@ -237,7 +235,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xxc-TK-ewT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-10114" y="-3116"/>
+            <point key="canvasLocation" x="-10199" y="-2884"/>
         </scene>
         <!--Collection View Controller-->
         <scene sceneID="ZkI-ye-QFG">
@@ -286,7 +284,47 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rfw-J8-x4h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-10103" y="-3661"/>
+            <point key="canvasLocation" x="-10014" y="-3499"/>
+        </scene>
+        <!--Loading Resources View Controller-->
+        <scene sceneID="dJP-TU-ler">
+            <objects>
+                <viewController id="cNh-IM-08d" customClass="LoadingResourcesViewController" customModule="WowTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HhS-7g-hNe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wowLogo" translatesAutoresizingMaskIntoConstraints="NO" id="FKr-A0-h1D">
+                                <rect key="frame" x="39" y="137" width="336" height="336"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="FKr-A0-h1D" secondAttribute="height" multiplier="1:1" id="KM8-v3-YQO"/>
+                                </constraints>
+                            </imageView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Kb1-zZ-tyQ">
+                                <rect key="frame" x="124.33333333333333" y="469" width="165.33333333333337" height="2"/>
+                                <color key="tintColor" red="1" green="0.95765436380000002" blue="0.44703653650000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </progressView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.57874745130000005" green="0.32151988149999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Kb1-zZ-tyQ" firstAttribute="top" secondItem="FKr-A0-h1D" secondAttribute="bottom" constant="-4" id="1DT-v9-ZuI"/>
+                            <constraint firstItem="FKr-A0-h1D" firstAttribute="centerX" secondItem="HhS-7g-hNe" secondAttribute="centerX" id="FsO-uI-bTk"/>
+                            <constraint firstItem="FKr-A0-h1D" firstAttribute="top" secondItem="ZC0-Ac-UAC" secondAttribute="top" constant="93" id="Ftb-V2-WEt"/>
+                            <constraint firstItem="FKr-A0-h1D" firstAttribute="width" secondItem="HhS-7g-hNe" secondAttribute="height" multiplier="250:667" id="MmD-vC-7n9"/>
+                            <constraint firstItem="Kb1-zZ-tyQ" firstAttribute="centerX" secondItem="ZC0-Ac-UAC" secondAttribute="centerX" id="gYY-dc-OmI"/>
+                            <constraint firstItem="Kb1-zZ-tyQ" firstAttribute="width" secondItem="HhS-7g-hNe" secondAttribute="width" multiplier="0.4" id="hpL-d2-ka1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ZC0-Ac-UAC"/>
+                    </view>
+                    <connections>
+                        <outlet property="loadingBar" destination="Kb1-zZ-tyQ" id="ALT-l0-DNQ"/>
+                        <outlet property="loadingImage" destination="FKr-A0-h1D" id="gUU-qB-ssB"/>
+                        <segue destination="Bc2-xg-6n9" kind="presentation" identifier="loadingResourcesToMythicKeystone" id="WNH-SE-C8d"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NJJ-Bn-sYN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-12436" y="-2971"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="BA4-f4-bcy">
@@ -305,10 +343,11 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3J8-D1-R4F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-11991" y="-3023"/>
+            <point key="canvasLocation" x="-11700" y="-2977"/>
         </scene>
     </scenes>
     <resources>
         <image name="monsterIcon24" width="24" height="24"/>
+        <image name="wowLogo" width="400" height="400"/>
     </resources>
 </document>
