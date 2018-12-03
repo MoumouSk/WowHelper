@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A4D11748B4F16875ABAAA1C4 /* Pods_WowHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA248351BB13DFCF8C27B61 /* Pods_WowHelper.framework */; };
+		D587DFD721B57EF4005DA819 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D587DFD621B57EF4005DA819 /* Default-568h@2x.png */; };
 		D5AFDF4321AC30310019B481 /* Current_keystone_affixes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AFDF4121AC30300019B481 /* Current_keystone_affixes.swift */; };
 		D5AFDF4421AC30310019B481 /* CurrentKeystoneGeneralInfosBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AFDF4221AC30300019B481 /* CurrentKeystoneGeneralInfosBase.swift */; };
 		D5AFE2CC21AC31260019B481 /* APIRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AFE2CA21AC31250019B481 /* APIRequester.swift */; };
@@ -47,6 +48,7 @@
 		2BA248351BB13DFCF8C27B61 /* Pods_WowHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WowHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		541FF0B96CA4A279A28A97AB /* Pods-WowHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WowHelper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WowHelper/Pods-WowHelper.debug.xcconfig"; sourceTree = "<group>"; };
 		8CFAAE9AFB63CA28D1E6AEF2 /* Pods-WowHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WowHelper.release.xcconfig"; path = "Pods/Target Support Files/Pods-WowHelper/Pods-WowHelper.release.xcconfig"; sourceTree = "<group>"; };
+		D587DFD621B57EF4005DA819 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		D5AFDF4121AC30300019B481 /* Current_keystone_affixes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Current_keystone_affixes.swift; sourceTree = "<group>"; };
 		D5AFDF4221AC30300019B481 /* CurrentKeystoneGeneralInfosBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentKeystoneGeneralInfosBase.swift; sourceTree = "<group>"; };
 		D5AFE2CA21AC31250019B481 /* APIRequester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequester.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 		D5BBB0AC21AC2D8800C3184C = {
 			isa = PBXGroup;
 			children = (
+				D587DFD621B57EF4005DA819 /* Default-568h@2x.png */,
 				D5BBB0B721AC2D8800C3184C /* WowHelper */,
 				D5BBB0B621AC2D8800C3184C /* Products */,
 				11187BAB2DC6E327F017D5A9 /* Pods */,
@@ -314,6 +317,7 @@
 				D5AFE2D221AC39360019B481 /* Info.plist in Resources */,
 				D5BBB0D121AC2E1D00C3184C /* Main.storyboard in Resources */,
 				D5BBB0C621AC2D8A00C3184C /* LaunchScreen.storyboard in Resources */,
+				D587DFD721B57EF4005DA819 /* Default-568h@2x.png in Resources */,
 				D5AFE2CF21AC33130019B481 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

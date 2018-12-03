@@ -1,20 +1,29 @@
 //
 //  AppDelegate.swift
-//  WowHelper
+//  WowTest
 //
-//  Created by Tom Hays on 26/11/2018.
+//  Created by Tom Hays on 29/10/2018.
 //  Copyright © 2018 Msk. All rights reserved.
 //
 
 import UIKit
 import CoreData
+import p2_OAuth2
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey: Any] = [:]) -> Bool {
+        if "WowHelper" == url.scheme {
+            let object = OAuth2Object().myoauth2
+            object.handleRedirectURL(url)
+            return true
+        }
+        return false
+    }
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
@@ -53,7 +62,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          application to it. This property is optional since there are legitimate
          error conditions that could cause the creation of the store to fail.
         */
-        let container = NSPersistentContainer(name: "WowHelper")
+        let container = NSPersistentContainer(name: "WowTest")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.
