@@ -51,14 +51,14 @@
 		D5AFDF4221AC30300019B481 /* CurrentKeystoneGeneralInfosBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentKeystoneGeneralInfosBase.swift; sourceTree = "<group>"; };
 		D5AFE2CA21AC31250019B481 /* APIRequester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequester.swift; sourceTree = "<group>"; };
 		D5AFE2CB21AC31260019B481 /* APIRequestRetrier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequestRetrier.swift; sourceTree = "<group>"; };
-		D5AFE2CE21AC33130019B481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../WowTest/WowTest/Supporting Files/Assets.xcassets"; sourceTree = "<group>"; };
+		D5AFE2CE21AC33130019B481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5AFE2D321AC39360019B481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
 		D5AFE2D621AC3A200019B481 /* RealmIndexBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmIndexBase.swift; sourceTree = "<group>"; };
 		D5AFE2D721AC3A210019B481 /* RealmsInfos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmsInfos.swift; sourceTree = "<group>"; };
 		D5BBB0B521AC2D8800C3184C /* WowHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WowHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5BBB0C021AC2D8800C3184C /* WowHelper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WowHelper.xcdatamodel; sourceTree = "<group>"; };
 		D5BBB0C521AC2D8A00C3184C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D5BBB0CE21AC2E0300C3184C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../../WowTest/WowTest/AppDelegate.swift; sourceTree = "<group>"; };
+		D5BBB0CE21AC2E0300C3184C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5BBB0D021AC2E1D00C3184C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		D5BBB0D321AC2E2C00C3184C /* UtilityFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilityFunctions.swift; sourceTree = "<group>"; };
 		D5BBB0D621AC2E3200C3184C /* LoadingResourcesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingResourcesViewController.swift; sourceTree = "<group>"; };
@@ -415,7 +415,6 @@
 				D5AFE2D321AC39360019B481 /* Base */,
 			);
 			name = Info.plist;
-			path = ../../WowTest/WowTest;
 			sourceTree = "<group>";
 		};
 		D5BBB0C421AC2D8A00C3184C /* LaunchScreen.storyboard */ = {
