@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cNh-IM-08d">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cNh-IM-08d">
     <device id="retina6_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -12,7 +13,7 @@
         <!--Mythic Leaderboard-->
         <scene sceneID="vVt-ix-J5e">
             <objects>
-                <viewController id="XJz-TS-tMq" customClass="MythicKeyLeaderboardViewController" customModule="WowTest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="XJz-TS-tMq" customClass="KeystoneLeaderboardViewController" customModule="WowHelper" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="D66-bo-c0M">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -97,18 +98,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o0l-Jk-XnE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-9294" y="-3093"/>
+            <point key="canvasLocation" x="-10945" y="-2991"/>
         </scene>
-        <!--Mythic Key Leaderboard Table View Controller-->
+        <!--Keystone Leaderboard Table View Controller-->
         <scene sceneID="ewt-l1-ySs">
             <objects>
-                <tableViewController id="fxm-OK-VSe" customClass="MythicKeyLeaderboardTableViewController" customModule="WowTest" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="fxm-OK-VSe" customClass="KeystoneLeaderboardTableViewController" customModule="WowHelper" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="z8M-bl-w6k">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="619"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="mythicCellIdentifier" rowHeight="100" id="rwP-ax-d14" customClass="MythicKeyLeaderboardTableViewCell" customModule="WowTest" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="mythicCellIdentifier" rowHeight="100" id="rwP-ax-d14" customClass="KeystoneLeaderboardTableViewCell" customModule="WowHelper" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="rwP-ax-d14" id="nTV-az-OrT">
@@ -235,7 +236,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xxc-TK-ewT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-10199" y="-2884"/>
+            <point key="canvasLocation" x="-10158" y="-2972"/>
         </scene>
         <!--Collection View Controller-->
         <scene sceneID="ZkI-ye-QFG">
@@ -284,12 +285,12 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rfw-J8-x4h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-10014" y="-3499"/>
+            <point key="canvasLocation" x="-10161" y="-3538"/>
         </scene>
         <!--Loading Resources View Controller-->
         <scene sceneID="dJP-TU-ler">
             <objects>
-                <viewController id="cNh-IM-08d" customClass="LoadingResourcesViewController" customModule="WowTest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="cNh-IM-08d" customClass="LoadingResourcesViewController" customModule="WowHelper" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HhS-7g-hNe">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -343,11 +344,11 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3J8-D1-R4F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-11700" y="-2977"/>
+            <point key="canvasLocation" x="-11775" y="-2972"/>
         </scene>
     </scenes>
     <resources>
-        <image name="monsterIcon24" width="24" height="24"/>
+        <image name="monsterIcon24" width="57.599998474121094" height="57.599998474121094"/>
         <image name="wowLogo" width="400" height="400"/>
     </resources>
 </document>
