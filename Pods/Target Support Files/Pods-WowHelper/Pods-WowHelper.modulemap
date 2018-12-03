@@ -1,0 +1,6 @@
+framework module Pods_WowHelper {
+  umbrella header "Pods-WowHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}
