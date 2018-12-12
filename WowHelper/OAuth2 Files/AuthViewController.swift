@@ -16,7 +16,7 @@ class AuthViewController: UIViewController {
         super.viewDidLoad()
     }
 
-    @IBAction func SignInButton(_ sender: UIButton) {
+    @IBAction func connect(_ sender: UIButton) {
         sessionHandler.handleSignIn()
     }
     

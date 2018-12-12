@@ -8,6 +8,7 @@
 
 import Foundation
 import Alamofire
+import AlamofireImage
 
 class APIRequester {
     
@@ -26,7 +27,7 @@ class APIRequester {
             headers[authorizationHeader.key] = authorizationHeader.value
             headers["Content-Type"] = "application/x-www-form-urlencoded"
         }
-        sessionManager.retrier = requestRetrier
+        //sessionManager.retrier = requestRetrier
         sessionManager.request("https://us.battle.net/oauth/token", method: .post, parameters: parameters, headers: headers).authenticate(user: username, password: password)
             .responseJSON { response in
                 guard let json = response.result.value as? [String: AnyObject], let access_token = json["access_token"] as? String else {
@@ -40,7 +41,7 @@ class APIRequester {
     }
     
     func simpleGetRequest(url: String, completion: @escaping (Data?) -> Void) {
-        sessionManager.retrier = requestRetrier
+        //sessionManager.retrier = requestRetrier
         sessionManager.request(url).validate().responseString { response in
             switch response.result {
             case .success:
@@ -54,4 +55,12 @@ class APIRequester {
         completion(nil)
     }
     
+    func getImageByURL(url: String, completion: @escaping (UIImage?) -> Void) {
+        print(url)
+        sessionManager.request(url).responseImage { response in
+            let image = response.result.value
+            completion(image)
+        }
+        completion(nil)
+    }
 }

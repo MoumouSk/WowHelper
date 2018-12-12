@@ -16,12 +16,11 @@ class OAuth2Object {
     
     var myoauth2 = OAuth2CodeGrant(settings: [
     "client_id": "eaf6394630ac4901b9ec4b19eaab379d",
-    "client_secret": "9DPZrnF3AgBiYnQnYWBwuLDTLelZD66e",
+    //"client_secret": "9DPZrnF3AgBiYnQnYWBwuLDTLelZD66e",
     "authorize_uri": "https://eu.battle.net/oauth/authorize",
     "token_uri": "https://eu.battle.net/oauth/token",
     "scope": "wow.profile",
-    "redirect_uris": ["https://google.fr"],
-    //"secret_in_body": true,
+    "redirect_uris": ["https://www.google.fr"],
     "verbose": true,
     ] as OAuth2JSON)
     

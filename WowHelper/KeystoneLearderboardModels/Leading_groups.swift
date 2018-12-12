@@ -8,7 +8,6 @@ struct Leading_groups : Codable {
     var members : [Members]?
 
 	enum CodingKeys: String, CodingKey {
-
 		case ranking = "ranking"
 		case duration = "duration"
 		case completed_timestamp = "completed_timestamp"
@@ -30,11 +29,11 @@ struct Leading_groups : Codable {
         var healIndex: Int
         
         for index in members!.indices {
-            if members![index].specialization!.role == .Tank {
+            if members![index].specialization!.role == .TANK {
                 tankIndex = index
                 members?.swapAt(tankIndex, 0)
             }
-            else if members![index].specialization!.role == .Heal {
+            else if members![index].specialization!.role == .HEAL {
                 healIndex = index
                 members?.swapAt(healIndex, 1)
             }

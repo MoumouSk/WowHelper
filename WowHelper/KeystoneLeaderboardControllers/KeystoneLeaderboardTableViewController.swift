@@ -33,6 +33,7 @@ class KeystoneLeaderboardTableViewController: UITableViewController {
                 print("Caught Error")
             }
         }
+        
     }
     
     override func viewDidLoad() {
@@ -41,7 +42,6 @@ class KeystoneLeaderboardTableViewController: UITableViewController {
         completedDateFormatter.dateFormat = "dd/MM/yy"
         completedTimeFormatter.timeZone = TimeZone(identifier: "UTC")
         completedTimeFormatter.dateFormat = "HH:mm:ss"
-        
         self.makeMyhticKeystoneLeaderboardRequest(realm: 1390, dungeonId: 244, period: self.currentPeriod!, access_token: self.accessToken)
     }
 

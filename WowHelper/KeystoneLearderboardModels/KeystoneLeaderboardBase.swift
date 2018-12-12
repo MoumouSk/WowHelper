@@ -12,7 +12,6 @@ struct KeystoneLeaderboardBase : Codable {
 	let name : String?
 
 	enum CodingKeys: String, CodingKey {
-
 		case map = "map"
 		case period = "period"
 		case period_start_timestamp = "period_start_timestamp"

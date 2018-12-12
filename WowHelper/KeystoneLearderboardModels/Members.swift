@@ -1,6 +1,6 @@
 
-
 import Foundation
+
 struct Members : Codable {
 	let profile : Profile?
 	let faction : Faction?

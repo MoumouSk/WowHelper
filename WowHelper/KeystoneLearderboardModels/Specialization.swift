@@ -10,8 +10,8 @@ struct Specialization : Codable {
 	}
     
     enum Role {
-        case Tank
-        case Heal
+        case TANK
+        case HEAL
         case DPS
     }
     
@@ -19,12 +19,12 @@ struct Specialization : Codable {
         if id == 66 || id == 73 ||
             id == 104 || id == 250 ||
             id == 268 || id == 581 {
-            role = Role.Tank
+            role = Role.TANK
         }
         else if id == 65 || id == 105 ||
             id == 256 || id == 257 ||
             id == 264 || id == 270 {
-            role = Role.Heal
+            role = Role.HEAL
         }
         else {
             role = Role.DPS
