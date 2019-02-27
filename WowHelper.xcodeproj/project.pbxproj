@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		135F9CBC21C007FD005C9796 /* CharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135F9CBB21C007FD005C9796 /* CharacterViewController.swift */; };
 		135F9CBE21C01436005C9796 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135F9CBD21C01436005C9796 /* MainTabBarController.swift */; };
-		135F9CC021C01772005C9796 /* CharacterBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135F9CBF21C01772005C9796 /* CharacterBase.swift */; };
+		136B197C2226DCE700E25626 /* CharacterBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136B197B2226DCE700E25626 /* CharacterBase.swift */; };
 		A4D11748B4F16875ABAAA1C4 /* Pods_WowHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA248351BB13DFCF8C27B61 /* Pods_WowHelper.framework */; };
 		D587DFD721B57EF4005DA819 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D587DFD621B57EF4005DA819 /* Default-568h@2x.png */; };
 		D5AFDF4321AC30310019B481 /* Current_keystone_affixes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AFDF4121AC30300019B481 /* Current_keystone_affixes.swift */; };
@@ -50,7 +50,7 @@
 /* Begin PBXFileReference section */
 		135F9CBB21C007FD005C9796 /* CharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CharacterViewController.swift; path = WowHelper/CharacterViewController.swift; sourceTree = SOURCE_ROOT; };
 		135F9CBD21C01436005C9796 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainTabBarController.swift; path = WowHelper/MainTabBarController.swift; sourceTree = SOURCE_ROOT; };
-		135F9CBF21C01772005C9796 /* CharacterBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CharacterBase.swift; path = ../../../Downloads/CharacterBase.swift; sourceTree = "<group>"; };
+		136B197B2226DCE700E25626 /* CharacterBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterBase.swift; sourceTree = "<group>"; };
 		2BA248351BB13DFCF8C27B61 /* Pods_WowHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WowHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		541FF0B96CA4A279A28A97AB /* Pods-WowHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WowHelper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WowHelper/Pods-WowHelper.debug.xcconfig"; sourceTree = "<group>"; };
 		8CFAAE9AFB63CA28D1E6AEF2 /* Pods-WowHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WowHelper.release.xcconfig"; path = "Pods/Target Support Files/Pods-WowHelper/Pods-WowHelper.release.xcconfig"; sourceTree = "<group>"; };
@@ -163,7 +163,7 @@
 			children = (
 				D5AFE2D421AC39360019B481 /* Info.plist */,
 				135F9CBB21C007FD005C9796 /* CharacterViewController.swift */,
-				135F9CBF21C01772005C9796 /* CharacterBase.swift */,
+				136B197B2226DCE700E25626 /* CharacterBase.swift */,
 				135F9CBD21C01436005C9796 /* MainTabBarController.swift */,
 				D5BBB0D221AC2E2C00C3184C /* Common */,
 				D5BBB0D521AC2E3200C3184C /* LoadingResourcesController */,
@@ -394,7 +394,6 @@
 				D5AFE2D821AC3A210019B481 /* RealmIndexBase.swift in Sources */,
 				D5BBB0E521AC2E5F00C3184C /* KeystoneLeaderboardViewController.swift in Sources */,
 				D5BBB11421AC2E9600C3184C /* Map.swift in Sources */,
-				135F9CC021C01772005C9796 /* CharacterBase.swift in Sources */,
 				D5BBB0E321AC2E5F00C3184C /* KeystoneLeaderboardTableViewCell.swift in Sources */,
 				135F9CBC21C007FD005C9796 /* CharacterViewController.swift in Sources */,
 				D5BBB11521AC2E9600C3184C /* Members.swift in Sources */,
@@ -421,6 +420,7 @@
 				135F9CBE21C01436005C9796 /* MainTabBarController.swift in Sources */,
 				D5AFE2D921AC3A210019B481 /* RealmsInfos.swift in Sources */,
 				D5BBB11921AC2E9600C3184C /* Specialization.swift in Sources */,
+				136B197C2226DCE700E25626 /* CharacterBase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
